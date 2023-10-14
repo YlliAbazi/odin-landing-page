@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .header-logo {
   margin: 0;
 }
@@ -129,6 +133,43 @@ body {
   color: #494c50;
 }
 
+.sign-up-banner {
+  background-color: #3382f6;
+  color: #f9faf8;
+  font-size: 20px;
+  margin: 5% 10%;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.text p {
+  margin: 0;
+}
 
+.sign-up-banner button{
+  background-color: #3382f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 16px;
+  border-radius: 5px;
+  height: 30px;
+  flex-basis: 150px;
+  align-self: center;
+}
+
+.footer {
+  height: 80px;
+  background-color: #1f2937;
+  color: #f9faf8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
